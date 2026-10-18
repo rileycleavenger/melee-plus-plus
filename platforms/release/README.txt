@@ -1,15 +1,17 @@
-MELEE 4K
-========
+MELEE++
+=======
 
 Super Smash Bros. Melee at 4K, widescreen, with HD textures and smooth
-motion on high-refresh displays. You need your own disc image of
-Super Smash Bros. Melee (USA, version 1.02): .iso, .gcm, .ciso or .rvz.
+motion on high-refresh displays, plus new fighters: Geno, King Boo,
+Optimus Prime and the Crewmate. Melee++ is Melee 4K with custom fighters.
+You need your own disc image of Super Smash Bros. Melee (USA, version
+1.02): .iso, .gcm, .ciso or .rvz.
 
 
 INSTALL AND PLAY (macOS)
 ------------------------
 Easiest: open Terminal and paste
-  curl -fsSL https://raw.githubusercontent.com/rileycleavenger/melee-4k/v1-pc/install.sh | bash
+  curl -fsSL https://raw.githubusercontent.com/rileycleavenger/melee-plus-plus/main/install.sh | bash
 then drag your disc image into the Finder window it opens.
 
 From this zip instead:
@@ -19,7 +21,7 @@ From this zip instead:
    "Open Anyway" next to Setup.command.
 3. Wait for "Done". The first run downloads the HD textures (a few
    minutes), then the game starts.
-4. From then on, open Melee4K.app to play.
+4. From then on, open MeleePlusPlus.app to play.
 
 
 INSTALL AND PLAY (Windows)
@@ -29,8 +31,17 @@ INSTALL AND PLAY (Windows)
    click More info, then Run anyway.
 3. Wait for "Done". The first run downloads the HD textures (a few
    minutes), then the game starts.
-4. From then on, double-click Melee4K\melee.exe (Setup also adds a
+4. From then on, double-click MeleePlusPlus\melee.exe (Setup also adds a
    desktop shortcut).
+
+
+NEW FIGHTERS
+------------
+Geno, King Boo, Optimus Prime and the Crewmate are on character select,
+around the grid; the CUSTOM switch left of Dr. Mario hides or shows them.
+Each has its own moves, specials, taunt, effects and results screen.
+Online, they play when everyone runs the same Melee++.
+Model credits: CREDITS.txt in this folder.
 
 
 PLAYING
@@ -45,13 +56,13 @@ Start when everyone is in. Works Mac <-> PC. Hold B (or Esc) to leave a
 lobby. If the lobby says "Same Wi-Fi only", forward UDP port 41000 to the
 host's computer or let someone else host.
 
-Updates: Options > Melee 4K > Check for Updates (or F1). The game closes,
+Updates: Options > Melee++ > Check for Updates (or F1). The game closes,
 updates itself and opens again; your disc, saves and settings stay.
 
 Mouse: moves the character select hand, in the menus too (point to
 select, left click A, right click B, wheel changes a value).
 
-Settings: main menu > Options > Melee 4K (screen 16:9 or 4:3, HUD,
+Settings: main menu > Options > Melee++ (screen 16:9 or 4:3, HUD,
 resolution, frame rate 60 to 144 fps, HD textures, stock icons, FPS
 counter, Unlock All; Left/Right changes a setting). During a match, F1 (or Back/Select/Create on a controller) opens
 the same settings plus controls, audio and graphics.

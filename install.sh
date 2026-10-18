@@ -1,23 +1,23 @@
 #!/bin/bash
-# Melee 4K installer for macOS (Apple Silicon). Paste into Terminal:
+# Melee++ installer for macOS (Apple Silicon). Paste into Terminal:
 #
-#   curl -fsSL https://raw.githubusercontent.com/rileycleavenger/melee-4k/v1-pc/install.sh | bash
+#   curl -fsSL https://raw.githubusercontent.com/rileycleavenger/melee-plus-plus/main/install.sh | bash
 #
 # Files fetched by curl are not marked as downloaded from the internet, so
 # macOS never shows its "could not verify" dialog for them. The script
 # downloads the newest release, opens the PUT-YOUR-ROM-HERE folder, waits for
 # your Melee disc image, runs Setup (which checks the disc and installs the HD
-# textures) and adds Melee 4K to Applications and the Desktop. Running it
+# textures) and adds Melee++ to Applications and the Desktop. Running it
 # again updates an existing install and keeps your disc, saves, settings and
 # textures.
 set -euo pipefail
 
 # The product: product.env's values, repeated since this file is fetched on
 # its own (tools/test_product.py checks they match).
-NAME="Melee 4K"
-FILE="Melee4K"
-SLUG="melee4k"
-REPO="rileycleavenger/melee-4k"
+NAME="Melee++"
+FILE="MeleePlusPlus"
+SLUG="meleepp"
+REPO="rileycleavenger/melee-plus-plus"
 DEST="${MELEE4K_DIR:-$HOME/$FILE}"
 ASSET="$FILE-macOS-arm64.zip"
 
