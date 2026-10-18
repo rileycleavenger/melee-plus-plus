@@ -23,7 +23,7 @@ GAME="${WORK}/${PRODUCT_FILE}/${PRODUCT_FILE}"
 [[ -f "${GAME}/melee.exe" ]] || { echo "${ZIP} has no ${PRODUCT_FILE}/${PRODUCT_FILE}/melee.exe" >&2; exit 1; }
 rm -rf "${GAME}/fighters"
 mkdir -p "${GAME}/fighters"
-cp -R "${PACKS}"/. "${GAME}/fighters/"
+cp -RX "${PACKS}"/. "${GAME}/fighters/"
 for credits in "${PACKS}"/*/CREDITS.txt; do
     [[ -f "${credits}" ]] && { cat "${credits}"; printf '\n\n'; }
 done > "${WORK}/${PRODUCT_FILE}/CREDITS.txt"
